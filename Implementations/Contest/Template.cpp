@@ -1,5 +1,5 @@
 // compile : g++ -o PROB PROB.cpp -std=c++11 -Wall -O2
-// options : -fsanitize=address -Wfatal-errors
+// options : -fsanitize=address -Wfatal-errors -Wl,--stack=256000000
 #include <bits/stdc++.h>
 using namespace std;
 using lint = long long;
